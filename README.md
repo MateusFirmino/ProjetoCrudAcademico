@@ -1,3 +1,13 @@
+#Exercício de Manipulação de Banco de Dados com JDBC , Implementação em Camadas.
+
+-   Apresenta uma implementação que pode ser usada como base para o desenvolvimento de
+    aplicações de manipulação de informações em banco de dados. 
+-   O Projeto é organizado em três camadas: **visão**, **negócio** e **persistência**. Usa uma classe VO
+    para transporte de dados entre as camadas (**AlunoVO**).
+
+
+
+
 ![imagem](imagens/CrudAcademico.png)
 
 
@@ -11,9 +21,19 @@
     - [x] nome - cadeia de caracteres com tamanho 50
     - [x] descricao - cadeia de caracteres com tamanho 50
     - [x] Criar uma classe **CursoVO**
-    - [x] Criar uma classe **CursoDAO** (inclusão, alteração, exclusão, busca por codigo e busca por nome)
-    - [x] Criar uma classe **CursoNegocio** (inclusão, alteração, exclusão, busca por codigo, busca por nome e
-    validação dos dados)
+    - [x] Criar uma classe **CursoDAO**[
+        - [x] inclusão, 
+        - [x] alteração, 
+        - [x] exclusão, 
+        - [x] busca por codigo
+        - [x] busca por nome]
+    - [x] Criar uma classe **CursoNegocio** [
+        - [x] inclusão,
+        - [x] alteração, 
+        - [x] exclusão, 
+        - [x] busca por codigo,
+        - [x] busca por nome,
+        - [x] validação dos dados]
 -   Acrescentar no menu as opções para **Curso**
 
 ## Topico 2
@@ -45,8 +65,8 @@
 -   Novo campo da tabela **aluno**:
 - [x] curso – inteiro (chave estrangeira da tabela curso)
   
-- [Alterar as funcionalidades de inclusão e alteração do aluno, para que o usuário possa escolher o curso
-ao qual o aluno está vinculado.]
+- **Alterar as funcionalidades de inclusão e alteração do aluno, para que o usuário possa escolher o curso
+ao qual o aluno está vinculado.**
 
 
 
@@ -78,7 +98,7 @@ ao qual o aluno está vinculado.]
         - [x] codigo disciplina 
         - [x] nome disciplina
    - Listar todas as disciplinas relacionadas a um aluno
-        - [ ] matricula aluno
-        - [ ] nome aluno
-        - [ ] codigo disciplina 
-        - [ ] nome disciplina
+        - [x] matricula aluno
+        - [x] nome aluno
+        - [x] codigo disciplina 
+        - [x] nome disciplina
