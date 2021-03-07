@@ -8,7 +8,7 @@
 
 
 
-![imagem](imagens/CrudAcademico.png)
+       ![imagem](imagens/CrudAcademico.png)
 
 
 
