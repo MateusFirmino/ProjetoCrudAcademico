@@ -1,4 +1,4 @@
-#Exercício de Manipulação de Banco de Dados com JDBC , Implementação em Camadas.
+#   Exercício de Manipulação de Banco de Dados com JDBC , Implementação em Camadas.
 
 -   Apresenta uma implementação que pode ser usada como base para o desenvolvimento de
     aplicações de manipulação de informações em banco de dados. 
