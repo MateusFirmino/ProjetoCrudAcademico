@@ -1,4 +1,57 @@
-# Topico 1 
+![imagem](imagens/CrudAcademico.png)
+
+
+
+# Topico 1
+
+-   [x]  Criar uma tabela no banco **academico** com o nome: **curso** 
+    
+-   Campos da tabela **curso**:
+    - [x] codigo - inteiro e gerado pelo banco (chave primária)
+    - [x] nome - cadeia de caracteres com tamanho 50
+    - [x] descricao - cadeia de caracteres com tamanho 50
+    - [x] Criar uma classe **CursoVO**
+    - [x] Criar uma classe **CursoDAO** (inclusão, alteração, exclusão, busca por codigo e busca por nome)
+    - [x] Criar uma classe **CursoNegocio** (inclusão, alteração, exclusão, busca por codigo, busca por nome e
+    validação dos dados)
+-   Acrescentar no menu as opções para **Curso**
+
+## Topico 2
+-   [x] Criar uma tabela no banco **academico** com o nome: **disciplina** 
+-   Campos da tabela disciplina:
+    - [x] codigo - inteiro e gerado pelo banco (chave primária)
+    - [x] nome - cadeia de caracteres com tamanho 50
+    - [x] semestre – inteiro
+    - [x] cargahoraria – inteiro
+    - [x] curso – inteiro (chave estrangeira da tabela **curso**)
+    - [x] Criar uma classe **DisciplinaVO**
+    - [x] Criar uma classe **DisciplinaDAO**[
+        - [x] inclusão, 
+        - [x] alteração, 
+        - [x] exclusão,
+        - [x] busca por codigo,
+        - [x] busca por nome]
+    - [x] Criar uma classe **DisciplinaNegocio** [
+        - [x] inclusão, 
+        - [x] alteração, 
+        - [x] exclusão, 
+        - [x] busca por codigo, 
+        - [x] busca por nome, 
+        - [x] validação dos dados]
+-   Acrescentar no menu as opções para Disciplina
+
+### Topico 3
+-   Alterar a tabela **aluno** para conter o código do **curso**, como chave estrangeira
+-   Novo campo da tabela **aluno**:
+- [x] curso – inteiro (chave estrangeira da tabela curso)
+  
+- [Alterar as funcionalidades de inclusão e alteração do aluno, para que o usuário possa escolher o curso
+ao qual o aluno está vinculado.]
+
+
+
+
+### Topico 4 
 -  Implementar as seguintes consultas no estudo de caso de alunos, sendo que a saída dos dados pode
    ser realizada no console da aplicação, conforme listado abaixo:
   
