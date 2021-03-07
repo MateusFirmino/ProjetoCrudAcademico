@@ -1,5 +1,5 @@
-#Topico 1 
-- 4 Implementar as seguintes consultas no estudo de caso de alunos, sendo que a saída dos dados pode
+# Topico 1 
+-  Implementar as seguintes consultas no estudo de caso de alunos, sendo que a saída dos dados pode
    ser realizada no console da aplicação, conforme listado abaixo:
   
    - Listar todos os alunos cadastrados
