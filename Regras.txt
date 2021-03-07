@@ -1,0 +1,33 @@
+3) Alterar a tabela aluno para conter o código do curso, como chave estrangeira
+ Novo campo da tabela aluno:
+ • curso – inteiro (chave estrangeira da tabela curso)
+ Alterar as funcionalidades de inclusão e alteração do aluno, para que o usuário possa escolher o curso
+ ao qual o aluno está vinculado.
+
+ 4) Implementar as seguintes consultas no estudo de caso de alunos, sendo que a saída dos dados pode
+ ser realizada no console da aplicação, conforme listado abaixo:
+ A) Listar todos os alunos cadastrados
+ ◦ matricula
+ ◦ nome
+ ◦ sexo
+ B) Listar todos os cursos cadastrados
+ ◦ codigo
+ ◦ nome
+ C) Listar todos as disciplinas cadastradas
+ ◦ codigo
+ ◦ nome
+ ◦ semestre
+ ◦ cargahoraria
+ D) Listar todos os alunos de um determinado curso
+ ◦ codigo do curso
+ ◦ nome do curso
+ ▪ matricula aluno - nome aluno
+ E) Listar todas as disciplinas de um determinado curso
+ ◦ codigo do curso
+ ◦ nome do curso
+ ▪ codigo disciplina - nome disciplina
+ F) Listar todas as disciplinas relacionadas a um aluno
+ ◦ matricula aluno
+ ◦ nome aluno
+ ▪ codigo disciplina - nome disciplina
+
